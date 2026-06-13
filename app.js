@@ -10,7 +10,11 @@ const apiRouter = require('./routers/api-router');
 
 const app = express();
 
+const cors = require('cors')
 
+app.use(cors({
+  origin: "https://final-project-vyhk.vercel.app/"
+}))
 app.use(cors({
 	origin : '*'
 }))
