@@ -12,6 +12,7 @@
   "author": "Erfan Ghazimoradi @ErfanCE",
   "license": "ISC",
   "dependencies": {
+    "@supabase/supabase-js": "^2.108.2",
     "bcryptjs": "^2.4.3",
     "cors": "^2.8.6",
     "dotenv": "^16.0.3",
